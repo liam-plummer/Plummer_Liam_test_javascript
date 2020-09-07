@@ -87,7 +87,12 @@ let random2 = ()=>{
     console.log(x)
     let y = +prompt("Entrez un chiffre")
     console.log(y)
+    if (x>y){
         alert(Math.floor(Math.random() * x) + y)
+    }
+    else if(y>x){
+        alert(Math.floor(Math.random() * y) + x)
+    }
 }
 random2()
 
