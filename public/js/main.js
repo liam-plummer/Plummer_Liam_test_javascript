@@ -48,6 +48,59 @@ let monInt = 14
 
 
 // L'objet date
-let date = new Date
-date = date.getDate
-console.log(date)
+// let date = new Date
+// console.log(date)
+// let day = date.getDay()
+// let month = date.getMonth()
+// let year = date.getFullYear()
+// console.log(`${day}\\${month}\\${year}`)
+
+
+// string to String
+// const majescule= (string) =>{
+//     console.log(string.toUpperCase());
+// } 
+// majescule("test")
+
+// string to StrinG
+// const maj = (string) =>{
+//     string = string.substr(0,1).toUpperCase() + string.substr(1).toLowerCase() + string.substr(-1,1).toUpperCase()
+//     string = string.replace(string.substr(-2,1),"")
+//     console.log(string)
+// }
+// maj("Essai")
+
+
+// La Longuer 
+// let long = prompt("Entrez un mot")
+// alert(long.length)
+
+// Le chiffre aléatoire p1
+// let random = () =>{
+//     alert(Math.floor(Math.random() * 100))
+// }
+// random()
+
+// Le chiffre aléatoire p2
+let random2 = ()=>{
+    let x = +prompt("Entrez un chiffre")
+    console.log(x)
+    let y = +prompt("Entrez un chiffre")
+    console.log(y)
+        alert(Math.floor(Math.random() * x) + y)
+}
+random2()
+
+// Le type
+// let val = () => {
+//     let valeur = prompt("Entrez une valeur")
+//     switch (valeur) {
+//         case valeur === monString:
+//             console.log("Votre valeur est de type string")
+//             break;
+    
+//         default:
+//             break;
+//     }
+// }
+// val()
